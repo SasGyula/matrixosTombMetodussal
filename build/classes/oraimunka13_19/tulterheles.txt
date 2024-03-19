@@ -1,0 +1,42 @@
+eq(){
+	eq(false)
+}
+eq(db, vanE){
+	ciklus 0 tól db-ig{
+		hogyha vanE{
+			print(szinkód + szóköz + (db))
+		}
+		print(szinkód + szóköz)
+	}
+}
+eq(vanE){
+	db = rnd(3,7)
+	eq(db, vanE)
+}
+
+
+
+
+qr(){
+	qr(false)
+}
+qr(int hossz){
+	qr(hossz,false)
+}
+qr(bool negyzet){
+	qr(20, negyzet)
+}
+qr(int hossz, bool negyzet){
+	kimenet = qr(20, true)
+	return kimenet
+}
+
+
+
+
+ki(kimenet){
+	print(kimenet)
+	File.write(kimenet)
+	halozaton(kimenet)
+}
+
